@@ -1,4 +1,4 @@
-package A.P.I;
+package ApI;
 
 public class ExeBalanco {
 

@@ -1,4 +1,4 @@
-package A.P.I.Exercios;
+package ApIExercicos;
 
 import java.util.Scanner;
 

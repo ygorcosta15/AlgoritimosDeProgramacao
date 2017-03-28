@@ -1,4 +1,4 @@
-package A.P.I;
+package ApI;
 
 import java.util.Scanner;
 
