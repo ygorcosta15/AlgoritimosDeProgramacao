@@ -18,6 +18,8 @@ public class Ex6 {
        
        area = ((a*c)/2);        
        System.out.println("area do retangulo é: " + area);
+       
+       
         // inicia  a questão B
         c = 3.14;
         System.out.println("entre com um valor:  ");
