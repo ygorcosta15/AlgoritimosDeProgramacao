@@ -51,5 +51,7 @@ public class Ex6 {
         area = b*b;
         System.out.println("A area do quadrado é: " +  area);
         
+        
+       
     }
 }
