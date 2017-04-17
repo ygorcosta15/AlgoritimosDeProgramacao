@@ -9,9 +9,9 @@ public class Ex4Serie {
         Scanner leitor = new Scanner( System.in);
         
         
-        int x = 0;
         
-        for ( x =0; x <=1000; x = x + 10 ){
+        
+        for (int  x =0; x <=1000; x = x + 10 ){
        
             System.out.println("saida:  " + x  );
         }

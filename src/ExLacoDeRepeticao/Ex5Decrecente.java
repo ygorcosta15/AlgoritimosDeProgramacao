@@ -10,7 +10,7 @@ public class Ex5Decrecente {
         
           int x = 0;
         
-        for ( x = 100 ;x >= 1; x = x - 2 ){
+        for ( x = 100 ;x >= 1; x = x -2 ){
        
             System.out.println("saida:  " + x  );
         }

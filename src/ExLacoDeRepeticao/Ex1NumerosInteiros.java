@@ -1,8 +1,10 @@
 package ExLacoDeRepeticao;
-
+/*
+Faça um programa que mostre todos os números inteiros de 1 a 50. Use o laço WHILE
+*/
 import java.util.Scanner;
 
-public class Ex1 {
+public class Ex1NumerosInteiros {
 
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
