@@ -1,5 +1,5 @@
 
-package EstruturaDeRepeticao;
+package AulaDeRepeticao;
 import java.util.Scanner;
 
 public class Ex3 {

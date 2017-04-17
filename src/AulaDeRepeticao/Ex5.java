@@ -1,4 +1,4 @@
-package EstruturaDeRepeticao;
+package AulaDeRepeticao;
 
 import java.util.Scanner;
 
