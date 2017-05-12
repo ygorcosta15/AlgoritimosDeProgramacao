@@ -3,7 +3,8 @@
 1) domingo
 2) segunda
             2. Permitir a entrada
-de imformações pelo usuario
+            de imformações pelo usuario
+
 1) dia , hora,minutos e segundos
 2) imprimir as infrmaçãoes 
 ate a condição de parada.
