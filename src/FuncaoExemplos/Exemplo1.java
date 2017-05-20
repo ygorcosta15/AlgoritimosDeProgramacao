@@ -55,8 +55,6 @@ public class Exemplo1 {
         int n12 = 0;
       
 
-        n12 = n1 + n2;
-
         return n12;
     }
 }
