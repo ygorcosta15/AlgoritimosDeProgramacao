@@ -6,15 +6,26 @@ package Lista4Funcao;
 
 import java.util.Scanner;
 
+/**
+ *
+ * @author Ygor
+ */
 public class Ex1SomaTresNumeros {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
-        entradas();
+        calculo();
 
     }
 
-    public static void entradas() {
+    /**
+     *
+     */
+    public static void calculo() {
         Scanner leitor = new Scanner(System.in);
 
         int a, b, c;
