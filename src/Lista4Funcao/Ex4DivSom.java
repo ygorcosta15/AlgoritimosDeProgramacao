@@ -13,24 +13,28 @@ public class Ex4DivSom {
     static Scanner leitor = new Scanner(System.in);
 
     public static void main(String[] args) {
-     
-        
-        int n = positivo();
+
+        int n = entrada();
         int som = 0;
         int aux = 0;
-        int res = somatorio(n,som,aux);
+        int resultado = 0;
+        int fat = 0;
+        int s = somatorio(n, som);
+        int f = fatorial(n, s, som);
+        double d = div(fat,som,resultado);
 
-        System.out.println("Somatorio: "+res+" Divido: "+aux);
+
+         System.out.println(d+": divisão");
     }
 
-    public static int positivo() {
+    public static int entrada() {
         int n;
         System.out.println("Numero inteiro:  ");
         n = leitor.nextInt();
         return n;
     }
 
-    public static int somatorio(int n, int som,int aux ) {
+    public static int somatorio(int n, int som) {
         som = 0;
         int i = 1;
         while (i <= n) {
@@ -38,8 +42,26 @@ public class Ex4DivSom {
             i++;
 
         }
-        
-         aux = som / n;
+
         return som;
+    }
+
+    public static int fatorial(int n, int fat, int som) {
+        fat = 0;
+        int i = 1;
+        while (i <= n) {
+            fat = fat * i;
+            i++;
+        }
+
+        return fat;
+    }
+
+    public static double div(int fat, int som, int resultado) {
+        resultado = 0;
+
+        resultado = fat / som;
+
+        return resultado;
     }
 }
