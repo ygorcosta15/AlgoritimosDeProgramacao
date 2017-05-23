@@ -13,9 +13,6 @@ public class Ex5Equa2Grau {
 
     public static void main(String[] args) {
         
-        double cal = calculo();
-        
-//double en = entradas(a, b, c);
     }
 
     public static double entradas(double a, double b, double c) {
