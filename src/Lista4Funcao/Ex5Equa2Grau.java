@@ -12,16 +12,21 @@ public class Ex5Equa2Grau {
     static Scanner leitor = new Scanner(System.in);
 
     public static void main(String[] args) {
-        
+        double a = entradas();
+        double b = entradas();
+        double c = entradas();
+        double r = calculo(a, b, c);
     }
 
-    public static double entradas(double a, double b, double c) {
-        int ent = 0;
+    public static double entradas() {
+
+        double a, b, c;
+
         System.out.println("valor de A:");
         a = leitor.nextDouble();
 
         while (a == 0) {
-            System.out.println("Valor de A nao pode ser zero Equação de segundo grau");
+            System.out.println("Valor de A nao pode ser ZERO.\n0Equação de segundo grau");
             System.out.println("valor de A: ");
             a = leitor.nextDouble();
         }
@@ -30,14 +35,15 @@ public class Ex5Equa2Grau {
         b = leitor.nextDouble();
         System.out.println("valor de C:");
         c = leitor.nextDouble();
-        
-        
-        return ent;
+
+        return a;
 
     }
 
-    public static double calculo(double x1, double x2, double a, double b, double c) {
+    public static double calculo(double a, double b, double c) {
+        double x1, x2;
         double delta;
+
         delta = ((b * b) - (4 * a * c));
         x1 = 0;
         x2 = 0;
@@ -52,7 +58,7 @@ public class Ex5Equa2Grau {
             System.out.println("-1");
         }
 
-        return delta;
+        return x1;
     }
 
 }

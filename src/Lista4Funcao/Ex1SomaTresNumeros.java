@@ -5,27 +5,16 @@ menor dentre os três números.
 package Lista4Funcao;
 
 import java.util.Scanner;
-
-/**
- *
- * @author Ygor
- */
 public class Ex1SomaTresNumeros {
 
-    /**
-     *
-     * @param args
-     */
+
     public static void main(String[] args) {
 
         calculo();
 
     }
 
-    /**
-     *
-     */
-    public static void calculo() {
+     static void calculo() {
         Scanner leitor = new Scanner(System.in);
 
         int a, b, c;

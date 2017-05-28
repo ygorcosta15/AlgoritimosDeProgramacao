@@ -55,8 +55,8 @@ public class AlterandoArray {
     public static void main(String[] args, int n) {
         int t = tamanhoVetor();
         int[] c = criaVet(n);
-        int[] c = populaVetor(vetor);
-        int[] mM = maiorMenor(vetor, menor, maior, n);
+//        int[] c = populaVetor(vetor);
+  //      int[] mM = maiorMenor(vetor, menor, maior, n);
     }
 
 }
